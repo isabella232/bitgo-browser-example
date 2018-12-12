@@ -1,0 +1,11 @@
+{
+  "name": "bitgo-browser-example",
+  "version": "1.0.0",
+  "description": "An example project to demonstrate usage of bitgojs in a browser environment",
+  "scripts": {
+    "build-bitgo": "cd node_modules/bitgo && npm i && npm run compile && cp browser/BitGoJS.min.js ../.."
+  },
+  "dependencies": {
+    "bitgo": "^4.42.0"
+  }
+}

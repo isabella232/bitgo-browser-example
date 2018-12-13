@@ -13,7 +13,7 @@ git clone git@github.com:BitGo/bitgo-browser-example.git
 Then move into the cloned repo and run the command to build BitGoJS for a browser environment.
 
 ```
-cd bitgo-browser-example && npm run build-bitgo
+cd bitgo-browser-example && npm install && npm run build-bitgo
 ```
 
 Once bitgo is done building, you can open the `index.html` file in a browser.
